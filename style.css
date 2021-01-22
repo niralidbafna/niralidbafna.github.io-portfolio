@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+  padding: 80px;
+}
+/*creating banner in css*/
+.banner{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+}
+.banner h2{
+  font-size: 2.5cm;
+  color: #444;
+  font-weight: 300;
+  line-height: 2.5cm;
+}
+.banner h2 span{
+  font-size: 1.2cms;
+  color: #efefef;
+  /* text-transform: uppercase */
+}
+.banner h3{
+  color: rgb(243, 242, 242);
+  font-size: 1.5cms;
+  font-weight: 200;
+  position: relative;
+  top: 15px;
+  letter-spacing: 1px;
+}
+.btn{
+  top: -300px;
+  position: relative;
+  background: #04b174;
+  display: inline-block;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.btn:hover{
+  background-color: tomato;
+}
+.photo{
+  width: 300px;
+  height: 369px;
+  position: relative;
+  left: 600px;
+  top: -200px;
+}
+
+/* creating About me layout in css */
+.heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111111;
+}
+.heading p{
+  font-style: italic;
+  font-size: 14px;
+}
+.heading h2{
+  font-size: 3em;
+  color: #04b174;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.proPic{
+  height: 250px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+.contentBx{
+  padding-left: 40px;
+  text-align: justify;
+}
+
+.contentBx h2 ,p{
+  font-weight: 320;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.atn{
+  background: #04b174;
+  display: inline-block;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.atn:hover{
+  background-color: tomato;
+}
+.heading.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.bt{
+  margin-top: 10px;
+}
